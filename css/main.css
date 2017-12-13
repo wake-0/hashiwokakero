@@ -1,0 +1,149 @@
+span.empty {
+    background: url("../icons/empty.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-1 {
+    background: url("../icons/mc_1.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-2 {
+    background: url("../icons/mc_2.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-3 {
+    background: url("../icons/mc_3.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-4 {
+    background: url("../icons/mc_4.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-5 {
+    background: url("../icons/mc_5.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-6 {
+    background: url("../icons/mc_6.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-7 {
+    background: url("../icons/mc_7.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.mc-8 {
+    background: url("../icons/mc_8.svg") no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;    
+}
+
+span.co-ho-single {
+    background: url("../icons/co_ho_single.svg");
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;
+}
+
+span.co-ho-double {
+    background: url("../icons/co_ho_double.svg");
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;
+}
+
+span.co-ve-single {
+    background: url("../icons/co_ve_single.svg");
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;
+}
+
+span.co-ve-double {
+    background: url("../icons/co_ve_double.svg");
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border-width: 0px;
+}
+
+button.mc {
+  background-color: transparent;
+  border-color: transparent;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+table{
+    table-layout:fixed;
+}
+
+td {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    display: inline-block;
+    
+}
