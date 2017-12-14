@@ -12,7 +12,8 @@
     <body onload="init()">    
     
         <div>
-            <button onclick="draw()" />
+            <button onclick="check_finished()">Check Game</button>
+            <button onclick="reset_game()">Reset</button>
         </div>
         
         <div class="game">
@@ -20,23 +21,9 @@
         </div>
         
         <div>
-            <table>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
-                </tr>
-            </table>
+           <p class="finished_state">
+            not finished.
+           </p>
         </div>
     
         <footer>
