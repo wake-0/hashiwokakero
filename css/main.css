@@ -88,7 +88,7 @@ span.mc-8 {
     border-width: 0px;    
 }
 
-span.co-ho-single {
+span.co-ho-1 {
     background: url("../icons/co_ho_single.svg");
     background-size: contain;
     cursor: pointer;
@@ -98,7 +98,7 @@ span.co-ho-single {
     border-width: 0px;
 }
 
-span.co-ho-double {
+span.co-ho-2 {
     background: url("../icons/co_ho_double.svg");
     background-size: contain;
     cursor: pointer;
@@ -108,7 +108,7 @@ span.co-ho-double {
     border-width: 0px;
 }
 
-span.co-ve-single {
+span.co-ve-1 {
     background: url("../icons/co_ve_single.svg");
     background-size: contain;
     cursor: pointer;
@@ -118,7 +118,7 @@ span.co-ve-single {
     border-width: 0px;
 }
 
-span.co-ve-double {
+span.co-ve-2 {
     background: url("../icons/co_ve_double.svg");
     background-size: contain;
     cursor: pointer;
