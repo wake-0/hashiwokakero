@@ -9,11 +9,11 @@
         <script src="js/all.min.js"></script>
     </head>
 
-    <body onload="init()">    
+    <body onload="game.init()">    
     
         <div>
-            <button onclick="check_finished()">Check Game</button>
-            <button onclick="reset_game()">Reset</button>
+            <button onclick="game.finished()">Check Game</button>
+            <button onclick="game.reset()">Reset</button>
         </div>
         
         <div class="game">
