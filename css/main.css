@@ -141,7 +141,7 @@ button.mc {
 }
 
 table{
-    table-layout:fixed;
+    table-layout:initial;
 }
 
 tr td {
