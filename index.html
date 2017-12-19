@@ -16,15 +16,12 @@
             <button onclick="game.finished()">Check Game</button>
             <button onclick="game.reset()">Reset</button>
             <button onclick="game.display_load()">Load</button>
+            <button onclick="game.display_export()">Export</button>
         </div>
         
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-            <!-- Modal content -->
+        <div id="modal_load" class="modal">
             <div class="modal-content">
-                <span class="close">&times;</span>
-                
+                <span id="close_load" class="close">&times;</span>
                 <div class="row">
                     <div class="col">
                         <label>Enter your Hashiwokakero structure:</label>
@@ -37,7 +34,18 @@
                 </div>
                 <button onclick="game.load_from_csv()">Load</button>
             </div>
+        </div>
 
+        <div id="modal_export" class="modal">
+            <div class="modal-content">
+                <span id="close_export" class="close">&times;</span>
+                <div class="row">
+                    <div class="col">
+                        <label>Copy the following text:</label>
+                        <textarea class="export-game" readonly></textarea>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div class="game"></div>
