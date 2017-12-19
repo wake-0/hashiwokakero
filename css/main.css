@@ -201,7 +201,24 @@ a:focus {
     cursor: pointer;
 } 
 
-textarea.load-game {
-    width: 100%;
-    height: 400px;
+textarea {
+    width: 80%;
+    height: 350px;
+}
+
+label {
+    display: block;
+    padding-left: 2px;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+.col {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    margin: 0px 3px;
 }
