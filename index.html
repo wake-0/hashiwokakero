@@ -10,18 +10,28 @@
 		<script src="js/papaparse.js"></script>
     </head>
 
-    <body onload="game.init_by_json()">    
+    <body onload="game.init()">    
     
         <div>
             <button onclick="game.finished()">Check Game</button>
             <button onclick="game.reset()">Reset</button>
-            <input type="file" id="files" onchange="test(this)" />
-            <output id="list"></output>
+            <button onclick="game.display_load()">Load</button>
         </div>
         
-        <div class="game">
-        
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Enter your Hashiwokakero structure:</h3>
+                <textarea class="load-game" placeholder="test ...."></textarea>
+                <button onclick="game.load_from_csv()">Load</button>
+            </div>
+
         </div>
+        
+        <div class="game"></div>
         
         <div>
            <p class="finished_state">
